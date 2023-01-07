@@ -1,7 +1,9 @@
+import './scss/main.scss';
+
 function App() {
   return (
     <div className="App">
-      teste
+      <p>teste</p>
     </div>
   );
 }
