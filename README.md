@@ -16,6 +16,7 @@
 - HTML
 - Javascript
 - React
+  - React Router DOM
 - Bootstrap
 - SASS/SCSS
 
