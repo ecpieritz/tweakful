@@ -11,7 +11,7 @@ const HomeHeader = () => {
     <header className='tf-header'>
       <div className='container-fluid'>
         <div className='row'>
-          <div className='col-md-8'>
+          <div className='col-md-7'>
             <h1>This headline is the Gist of the your <span className='tf-colors__text__blue'>whole Website</span> </h1>
             <p>And the description of hero section is follow up message after the punch of a great headline. So, make it short, simple, descriptive and to the point.</p>
 
@@ -23,7 +23,7 @@ const HomeHeader = () => {
               <img src={amazon} alt="Amazon logo" />
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-5'>
             <img src={bannerImg} alt="Woman smiling and holding a mug" />
           </div>
         </div>
