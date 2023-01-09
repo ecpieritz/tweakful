@@ -1,0 +1,28 @@
+@import '../abstracts/variables';
+
+.tf-header{
+  padding: 80px 0;
+  
+  .col-md-8{
+    h1{
+      width: 80%;
+    }
+
+    p{
+      width: 50%;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+  }
+
+  @media(max-width: 440px){
+    padding: 20px 0;
+    .col-md-8{
+      order: 2;
+      width: 100%;
+    }
+    .col-md-4{
+      order: 1;
+    }
+  }
+}
