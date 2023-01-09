@@ -15,7 +15,7 @@ const HomeHeader = () => {
             <h1>This headline is the Gist of the your <span className='tf-colors__text__blue'>whole Website</span> </h1>
             <p>And the description of hero section is follow up message after the punch of a great headline. So, make it short, simple, descriptive and to the point.</p>
 
-            <a href="/contact">Book A Meeting <img src={rightArrow} alt="white right arrow" /></a>
+            <a className='btn btn-bg-blue' href="/contact">Book A Meeting <img src={rightArrow} alt="white right arrow" /></a>
 
             <div className='tf-header__customers-logo'>
               <img src={logitech} alt="Logitech logo" />

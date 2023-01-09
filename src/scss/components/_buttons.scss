@@ -1,0 +1,19 @@
+@import '../abstracts/variables';
+
+.btn{
+  padding: 10px 30px;
+  border-radius: 0;
+  font-size: 18px;
+  img{
+    margin-left: 10px;
+  }
+  
+  &.btn-bg-blue{
+    background-color: $tf-blue;
+    color:$tf-white;
+
+    &:hover{
+      background-color: $tf-dark-blue;
+    }
+  }
+}
