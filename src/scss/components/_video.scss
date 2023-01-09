@@ -1,0 +1,22 @@
+@import '../abstracts/variables';
+
+.tf-video{
+  .col-md-6{
+    p{
+      width: 80%;
+      line-height: 1.5;
+    }
+    .row{
+      margin-top: 30px;
+      p{
+        width: 75%;
+      }
+    }
+  }
+
+  @media(max-width: 440px){
+    iframe{
+      margin-top: 30px;
+    }
+  }
+}

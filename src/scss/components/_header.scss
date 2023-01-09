@@ -2,8 +2,14 @@
 
 .tf-header{
   padding: 80px 0;
+
+  .col-md-5{
+    img{
+      width: 100%;
+    }
+  }
   
-  .col-md-8{
+  .col-md-7{
     h1{
       width: 80%;
     }
