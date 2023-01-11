@@ -1,7 +1,8 @@
 import React from 'react'
 import HomeHeader from '../../components/HomeHeader'
-import Topics from '../../components/TopicsSection'
 import VideoSection from '../../components/VideoSection'
+import Topics from '../../components/TopicsSection'
+import Goals from '../../components/Goals'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
      <HomeHeader />
      <VideoSection />
      <Topics />
+     <Goals />
     </>
   )
 }
