@@ -27,6 +27,23 @@
     margin-top: 30px;
   }
 
+  &.pages{
+    h1{
+      width: 75%;
+    }
+    p{
+      width: 50%;
+      margin-top: 40px;
+      line-height: 1.5;
+    }
+    
+    @media(max-width: 780px){
+      h1,p{
+        width: 100%;
+      }
+    }
+  }
+
   @media(max-width: 440px){
     padding: 20px 0;
     .col-md-7{
