@@ -4,6 +4,7 @@ import Video from '../../components/Pages/Video'
 import FeatureRightImg from '../../components/Pages/FeatureRightImg'
 import BookAMeeting from '../../components/BookAMeeting'
 import Testimonials from '../../components/Pages/Testimonials'
+import HowItWorks from '../../components/Pages/HowItWorks'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
       <Video />
       <FeatureRightImg />
       <Testimonials />
+      <HowItWorks />
       <BookAMeeting />
     </>
   )
