@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "xxxx" width = "700" height = "auto">
-  <img src = "xxxx" width = "350" height = "auto">
-  <img src = "xxxx" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/tweakful/blob/main/public/print-01.jpg?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/tweakful/blob/main/public/print-02.jpg?raw=true" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/tweakful/blob/main/public/print-03.jpg?raw=true" width = "350" height = "auto">
 </p>
 
 ## 📖 About
