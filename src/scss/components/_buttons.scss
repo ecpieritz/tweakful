@@ -23,6 +23,16 @@
       background-color: $tf-dark-blue;
     }
   }
+  
+  &.btn-outline-blue{
+    border: 2px solid $tf-blue;
+    color:$tf-blue;
+
+    &:hover{
+      border-color: $tf-white;
+      color: $tf-white;
+    }
+  }
 
   &.play-btn{
     padding: 15px 15px 15px 60px;
