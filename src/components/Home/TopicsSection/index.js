@@ -6,6 +6,7 @@ import tag from '../../../assets/imgs/icons/tf-icon__white-tag.png'
 import grid from '../../../assets/imgs/icons/tf-icon__white-grid.svg'
 import heart from '../../../assets/imgs/icons/tf-icon__white-heart.png'
 import shield from '../../../assets/imgs/icons/tf-icon__white-shield.svg'
+import CardItem from '../../CardItem'
 
 const Topics = () => {
   return (
@@ -15,34 +16,22 @@ const Topics = () => {
 
         <div className='row'>
           <div className='col-md-4'>
-            <img src={star} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={star} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
           <div className='col-md-4'>
-            <img src={flash} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={flash} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
           <div className='col-md-4'>
-            <img src={tag} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={tag} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
           <div className='col-md-4'>
-            <img src={grid} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={grid} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
           <div className='col-md-4'>
-            <img src={heart} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={heart} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
           <div className='col-md-4'>
-            <img src={shield} alt="" />
-            <p className='font-weight-bold'>First Feature</p>
-            <p>Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons</p>
+            <CardItem img={shield} title="Feature" text="Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons" />
           </div>
         </div>
       </div>
