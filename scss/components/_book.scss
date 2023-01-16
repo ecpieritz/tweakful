@@ -1,0 +1,43 @@
+.tf-book{
+  margin-bottom: 100px;
+  &__texts{
+    width: 70%;
+    margin: 0 auto;
+
+    @media(max-width: 780px){
+      width: 100%;
+    }
+  }
+
+  &__btn{
+    width: 100%;
+    text-align: center;
+    .btn{
+      &.btn-bg-blue{
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__customers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    img{
+      height: 30px;
+    }
+
+    @media(max-width: 780px){
+      flex-direction: column;
+
+      img{
+        height: auto;
+        width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.tf-topics {
+  h2 {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .row {
+    width: 75%;
+
+    .col-md-4 {
+      margin-top: 30px;
+    }
+
+  }
+
+  @media(max-width: 780px) {
+    h2 {
+      width: 100%;
+    }
+
+    .row {
+      width: 100%;
+
+      .col-md-4 {
+        margin-top: 0;
+      }
+
+      img {
+        margin-top: 30px;
+      }
+    }
+  }
+}

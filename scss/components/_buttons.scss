@@ -1,0 +1,42 @@
+@import '../abstracts/variables';
+
+.btn{
+  padding: 10px 30px;
+  border-radius: 0;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none !important;
+  
+  img{
+    margin-left: 10px;
+  }
+  
+  &.btn-bg-blue{
+    background-color: $tf-blue;
+    color:$tf-white;
+
+    &:hover{
+      background-color: $tf-dark-blue;
+    }
+  }
+
+  &.play-btn{
+    padding: 15px 15px 15px 60px;
+    background-image: url(../../assets/imgs/icons/tf-icon__play-btn.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    font-weight: 600;
+    border: none;
+    color: $tf-white;
+
+    &:hover{
+      background-color: $tf-blue;
+      border-radius: 30px;
+    }
+  }
+}
