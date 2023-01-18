@@ -19,6 +19,7 @@ const ContactUs = () => {
                 <span>Call us</span>
                 <p>(00) 00 00000-0000</p>
               </a>
+              
               <a className='btn btn-outline-blue' href="mailto:yourcontact@mail.com">
                 <span>Email us</span>
                 <p>yourcontact@mail.com</p>
