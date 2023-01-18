@@ -14,13 +14,13 @@ const Navbar = () => {
   <div className="collapse navbar-collapse justify-content-end" id="tf-navbar">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <a className="nav-link" href="/">Home</a>
+        <a className="nav-link" href="/tweakful/">Home</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/about">About</a>
+        <a className="nav-link" href="/tweakful/about">About</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/contact">Contact</a>
+        <a className="nav-link" href="/tweakful/contact">Contact</a>
       </li>
     </ul>
   </div>
